@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141821"/>
+      <stop offset="50%" stop-color="#101317"/>
+      <stop offset="100%" stop-color="#0a0c0f"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2C078"/>
+      <stop offset="55%" stop-color="#E6A055"/>
+      <stop offset="100%" stop-color="#E6521F"/>
+    </linearGradient>
+    <linearGradient id="amberH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F2C078"/>
+      <stop offset="55%" stop-color="#E6A055"/>
+      <stop offset="100%" stop-color="#E6521F"/>
+    </linearGradient>
+    <radialGradient id="amberGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#E6521F" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#E6521F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="greenGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="cardEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="440" height="280" rx="0" fill="url(#bg)"/>
+  <circle cx="360" cy="40" r="150" fill="url(#amberGlow)"/>
+  <circle cx="40" cy="250" r="140" fill="url(#greenGlow)"/>
+
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <path d="M0 70 H440 M0 140 H440 M0 210 H440"/>
+    <path d="M110 0 V280 M220 0 V280 M330 0 V280"/>
+  </g>
+
+  <g transform="translate(36,40)">
+    <g filter="url(#softGlow)">
+      <rect x="0" y="0" width="58" height="58" rx="14" fill="#0e1116" stroke="url(#amber)" stroke-width="2"/>
+      <text x="29" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="46" fill="url(#amber)" letter-spacing="-2">Q</text>
+    </g>
+    <g transform="translate(74,16)" font-weight="800" letter-spacing="-0.5">
+      <text x="0" y="22" font-size="30" fill="#ffffff">Auto</text>
+      <text x="66" y="22" font-size="30" fill="url(#amberH)">QAI</text>
+    </g>
+    <text x="76" y="56" font-size="12.5" fill="#8b94a3" font-weight="500" letter-spacing="0.2">AI-driven browser testing</text>
+  </g>
+
+  <text x="36" y="158" font-size="25" font-weight="800" fill="#f4f6fa" letter-spacing="-0.4">Your AI agent tests in</text>
+  <text x="36" y="190" font-size="25" font-weight="800" letter-spacing="-0.4">
+    <tspan fill="#f4f6fa">your </tspan><tspan fill="#6ee7b7">real, logged-in</tspan><tspan fill="#f4f6fa"> browser.</tspan>
+  </text>
+
+  <text x="36" y="221" font-size="13.5" fill="#9aa3b2" font-weight="500">No fresh Selenium. No re-login. Same session, SSO &amp; cookies.</text>
+
+  <g transform="translate(36,240)" font-size="12" font-weight="600">
+    <g>
+      <rect x="0" y="0" width="124" height="26" rx="13" fill="rgba(242,192,120,0.10)" stroke="rgba(242,192,120,0.35)"/>
+      <text x="62" y="17" text-anchor="middle" fill="#F2C078">Claude Code</text>
+    </g>
+    <g transform="translate(132,0)">
+      <rect x="0" y="0" width="70" height="26" rx="13" fill="rgba(110,231,183,0.10)" stroke="rgba(110,231,183,0.35)"/>
+      <text x="35" y="17" text-anchor="middle" fill="#6ee7b7">Cursor</text>
+    </g>
+    <g transform="translate(210,0)">
+      <rect x="0" y="0" width="80" height="26" rx="13" fill="rgba(34,211,238,0.10)" stroke="rgba(34,211,238,0.35)"/>
+      <text x="40" y="17" text-anchor="middle" fill="#67e8f9">Copilot</text>
+    </g>
+    <g transform="translate(298,0)">
+      <rect x="0" y="0" width="62" height="26" rx="13" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+      <text x="31" y="17" text-anchor="middle" fill="#c7cdd6">+ MCP</text>
+    </g>
+  </g>
+</svg>

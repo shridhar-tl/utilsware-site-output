@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="AutoQAI">
+  <defs>
+    <linearGradient id="aqiQ" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2C078"/>
+      <stop offset="55%" stop-color="#E6A055"/>
+      <stop offset="100%" stop-color="#E6521F"/>
+    </linearGradient>
+  </defs>
+  <path
+    fill="url(#aqiQ)"
+    d="M56 14C32.252 14 13 33.252 13 57s19.252 43 43 43c8.61 0 16.63-2.53 23.353-6.886L96.2 109.8a8 8 0 0 0 11.314-11.314L91.84 82.81C97.07 75.5 100 66.62 100 57c0-23.748-19.252-43-44-43Zm0 22c11.598 0 21 9.402 21 21s-9.402 21-21 21-21-9.402-21-21 9.402-21 21-21Z"
+  />
+</svg>
